@@ -1,6 +1,6 @@
 # 🍁 MAPLE: Encoding Dexterous Robotic <ins>Ma</ins>nipulation <ins>P</ins>riors <ins>L</ins>earned From <ins>E</ins>gocentric Videos
 
-## [[Paper]](https://algvr.com/files/MAPLE.pdf)  [[Website]](https://algvr.com/maple/)
+## [[Paper]](https://arxiv.org/pdf/2504.06084)  [[Website]](https://algvr.com/maple/)
 
 <img src="https://algvr.com/maple/static/images/maple_teaser.png" alt="Method Figure" style="width: 90%; margin-bottom: 8px;"/>
 
@@ -39,11 +39,14 @@ Stay tuned, more code coming soon!
 If you found our work useful, please consider citing it:
 
 ```
-@inproceedings{
-    gavryushin2025maple,
-    title={{MAPLE: Encoding Dexterous Robotic Manipulation Priors Learned From Egocentric Videos}},
-    author={Gavryushin, Alexey and Wang, Xi and Malate, Robert J. S. and Yang, Chenyu and Jia, Xiangyi and Goel, Shubh and Liconti, Davide and Zurbr{\"u}gg, Ren{\'e} and Katzschmann, Robert K. and Pollefeys, Marc},
-    year={2025},
-    url={https://algvr.com/maple/}
+@article{gavryushin2025maple,
+  title={{MAPLE: Encoding Dexterous Robotic Manipulation Priors Learned From Egocentric Videos}}, 
+  author={Gavryushin, Alexey and Wang, Xi and Malate, Robert J. S. and Yang, Chenyu and Jia, Xiangyi and Goel, Shubh and Liconti, Davide and Zurbr{\"u}gg, Ren{\'e} and Katzschmann, Robert K. and Pollefeys, Marc},
+  eprint={2504.06084},
+  archivePrefix={arXiv},
+  primaryClass={cs.RO},
+  journal={arXiv preprint arXiv:2504.06084},
+  year={2025},
+  url={https://arxiv.org/abs/2504.06084}
 }
 ```
