@@ -25,7 +25,7 @@ import torch
 
 if __name__ == "__main__":
     with torch.no_grad():
-        checkpoint_path = "checkpoints/maple_ln.pt"
+        checkpoint_path = "checkpoints/maple.pt"
         encoder = MAPLE(checkpoint_path)
         image = Image.open("example.jpg")
         features = encoder(image)
@@ -36,12 +36,12 @@ Stay tuned, more code coming soon!
 
 # Citation
 
-If you found our work useful, please consider citing it:
+If you found our work useful, please cite it:
 
 ```
 @article{gavryushin2025maple,
   title={{MAPLE: Encoding Dexterous Robotic Manipulation Priors Learned From Egocentric Videos}}, 
-  author={Gavryushin, Alexey and Wang, Xi and Malate, Robert J. S. and Yang, Chenyu and Jia, Xiangyi and Goel, Shubh and Liconti, Davide and Zurbr{\"u}gg, Ren{\'e} and Katzschmann, Robert K. and Pollefeys, Marc},
+  author={Gavryushin, Alexey and Wang, Xi and Malate, Robert J. S. and Yang, Chenyu and Liconti, Davide and Zurbr{\"u}gg, Ren{\'e} and Katzschmann, Robert K. and Pollefeys, Marc},
   eprint={2504.06084},
   archivePrefix={arXiv},
   primaryClass={cs.RO},
